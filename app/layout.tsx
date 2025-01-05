@@ -3,8 +3,11 @@ import type { Metadata } from "next";
 import ScriptLoader from "./components/ScriptLoader";
 
 export const metadata: Metadata = {
-  title: "Embed Waitlist Form",
-  description: "Waitlist form for refer.riftlend.com",
+  title: "RiftLend",
+  description: "Your stress free lending and borrowing experience",
+  icons: {
+    icon: [{ url: "/icon.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({
