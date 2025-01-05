@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import ScriptLoader from "./components/ScriptLoader";
 
 export const metadata: Metadata = {
   title: "Embed Waitlist Form",
@@ -23,7 +24,7 @@ export default function RootLayout({
         }}
       >
         {children}
-        <script src="/js/waitlist.js" />
+        <ScriptLoader />
       </body>
     </html>
   );
