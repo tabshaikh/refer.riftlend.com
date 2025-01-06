@@ -7,7 +7,7 @@ export default function ScriptLoader() {
 
   return (
     <>
-      {pathname === "/waitlist" && <script src="/js/waitlist.js" />}
+      {pathname === "/" && <script src="/js/waitlist.js" />}
       {pathname === "/confirm" && <script src="/js/confirm.js" />}
     </>
   );
