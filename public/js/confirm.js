@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Handle URL parameters
-  const urlParams = new URLSearchParams(window.location.search);
+  const urlParams = new URLSearchParams(window.parent.location.search);
   const m = urlParams.get('m');
   const verify = urlParams.get('verify');
 
